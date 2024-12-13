@@ -1,6 +1,6 @@
 # Proteus 🐍
 
-Proteus is a dynamic, cross-platform window and tiling manager designed to serve as the interactive layer for [Hermes 🦀](https://github.com/yourusername/Hermes). With its adaptable design, Proteus empowers users to manage windows and workflows efficiently, integrating seamlessly with intelligent task and file management systems.
+Proteus is a dynamic, cross-platform window and tiling manager designed to serve as the interactive layer for [Hermes 🦀](https://github.com/JustinPhillipsPDX/Hermes). With its adaptable design, Proteus empowers users to manage windows and workflows efficiently, integrating seamlessly with intelligent task and file management systems.
 
 ## Features (Planned)
 - **Dynamic Window Management**: Customizable tiling and stacking layouts.
