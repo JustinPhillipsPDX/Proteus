@@ -19,7 +19,7 @@ Proteus is a dynamic, cross-platform window and tiling manager designed to serve
 
 ### Build Instructions
 ```bash
-git clone https://github.com/yourusername/Proteus.git
+git clone https://github.com/JustinPhillipsPDX/Proteus.git
 cd Proteus
 mkdir build && cd build
 cmake ..
