@@ -1,6 +1,6 @@
 # Proteus 🐍
 
-Proteus is a dynamic, cross-platform window and tiling manager designed to serve as the interactive layer for [Hermes 🦀](https://github.com/JustinPhillipsPDX/Hermes). With its adaptable design, Proteus empowers users to manage windows and workflows efficiently, integrating seamlessly with intelligent task and file management systems.
+Proteus is a dynamic, cross-platform window and tiling manager designed to serve as the interactive layer for [Hermes 🦀](https://github.com/JustinPhillipsPDX/Hermes). With its adaptable design, Proteus empowers users to manage windows and workflows efficiently, integrating seamlessly with intelligent task and file management systems. Proteus is part of an ecosystem of tools that includes [SeaShell 🐚](https://github.com/JustinPhillipsPDX/SeaShell), which acts as the installation and build mechanism for the project.
 
 ## Features (Planned)
 - **Dynamic Window Management**: Customizable tiling and stacking layouts.
@@ -8,6 +8,7 @@ Proteus is a dynamic, cross-platform window and tiling manager designed to serve
 - **Integration with Hermes**: Enhanced file and task management capabilities.
 - **User-Friendly Interface**: Keyboard-driven workflows with optional mouse support.
 - **Theming and Customization**: Support for personalized layouts and styles.
+- **Seamless Installation**: Uses [SeaShell 🐚](https://github.com/JustinPhillipsPDX/SeaShell) for cross-platform setup and build automation.
 
 ## Getting Started
 
@@ -16,11 +17,34 @@ Proteus is a dynamic, cross-platform window and tiling manager designed to serve
 - A C++ compiler (GCC, Clang, or MSVC)
 - CMake (3.10 or higher)
 - Git for version control
+- [SeaShell 🐚](https://github.com/JustinPhillipsPDX/SeaShell): For installation and build automation.
 
 ### Build Instructions
-```bash
-git clone https://github.com/JustinPhillipsPDX/Proteus.git
-cd Proteus
-mkdir build && cd build
-cmake ..
-make
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JustinPhillipsPDX/Proteus.git
+   cd Proteus
+   ```
+
+2. Use [SeaShell 🐚](https://github.com/JustinPhillipsPDX/SeaShell) for installation and compilation:
+   - **Linux/macOS**:
+     ```bash
+     ./install.sh
+     ```
+   - **Windows** (run in PowerShell):
+     ```powershell
+     ./install.ps1
+     ```
+
+3. Follow the prompts to complete the setup.
+
+## Roadmap
+- [x] Repository setup
+- [ ] Core window management functionality
+- [ ] Platform-specific modules
+- [ ] Theming and customization framework
+- [ ] Integration with Hermes 🦀 for intelligent workflows
+- [ ] Full support for installation via SeaShell 🐚
+
+## License
+This project is licensed under the [MIT License](LICENSE).
