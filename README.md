@@ -11,7 +11,7 @@ In addition to its core functionality, Proteus has the potential to replace syst
 - **User-Friendly Interface**: Keyboard-driven workflows with optional mouse support.
 - **Theming and Customization**: Support for personalized layouts and styles.
 - **Seamless Installation**: Uses [SeaShell 🐚](https://github.com/JustinPhillipsPDX/SeaShell) for cross-platform setup and build automation.
-- **Explorer Replacement (Planned)**: Serve as an alternative to the Windows Explorer and taskbar while maintaining system wallpaper.
+- **Explorer Replacement (Planned)**: Serve as an alternative to the Windows Explorer and taskbar.
 
 ## Getting Started
 
